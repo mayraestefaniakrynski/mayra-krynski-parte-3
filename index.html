@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Magnolias</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@700&family=PT+Serif:ital@1&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--inicio nav-->
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Las Magnolias</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novedades</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><!--boton de despliegue de menú-->
+                                Nuestra Carta
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Desayunos y Brunch</a></li>
+                                <li><a class="dropdown-item" href="#">Meriendas</a></li>
+                                <li><a class="dropdown-item" href="#">Tortas</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Recomendaciones</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--inicio del submenu carrito-->
+            <div class="col-2 u-pull-right">
+                <ul>
+                    <li class="submenu">
+                        <img src="img/cart.png" id="img-carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito" class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!--fin de nav-->
+    <main>
+        <div class="portada"><!--inicio portada-->
+            <img src="IMG/cafeteria1.jpg" class="d-block w-100" alt="cafeterias">
+        </div>
+        <br>
+        <!--fin portada-->
+        <!--inicio de reloj-->
+        <div class="reloj">
+        </div>
+        <!--fin de reloj-->
+        <!--inicio sobre nosotros-->
+        <div class="container-fluid">
+            <div class="row my-3">
+                <div id="home" class="col-md-5 offset-md-2 scroll_section">
+                    <h2 class="text-center my-4">Sobre Nosotros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam ea eveniet, fugit
+                        aliquam
+                        aut fuga possimus non vero? Doloremque blanditiis sit, dignissimos quod labore minima
+                        accusamus
+                        velit et
+                        reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, porro
+                        esse? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore quisquam
+                        voluptatibus voluptatum ullam repellendus deleniti adipisci soluta! Culpa, ipsum.
+                        Accusantium delectus quam nihil inventore est aliquam provident neque corporis!
+                    </p>
+                    <div class="img">
+                        <img class="img12" src="IMG/brunch.webp" alt="brunch">
+                    </div>
+                </div>
+                <div class="col-md-3 my-3"> <!--inicio servicio de catering-->
+                    <div class="catering">
+                        <h2 class="seccion-titulo">Servicio de catering</h2>
+                        <br>
+                        <div class="img">
+                            <img class="img-fluid" src="IMG/catering.jpg" alt="catering">
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum deleniti vitae itaque
+                            excepturi dicta ratione nisi impedit harum molestiae inventore, mollitia reprehenderit
+                            obcaecati voluptatum odio exercitationem praesentium! Pariatur, sequi sunt. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Modi et tempora fuga deleniti. Magni nulla
+                            enim
+                            quis eius cupiditate fugiat dolores veritatis harum, ipsum cumque, maxime labore
+                            repellat,
+                            nobis eum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--fin sobre nosotros-->
+        <!--inicio novedades-->
+        <div class="container"><!--contenedor principal novedades-->
+            <div id="novedades" class="row">
+                <h2 class=>Novedades</h2>
+                <ul class="lista-novedades">
+                    <li><a href=""><img src="IMG/carrot.jpg" alt="carrotcake" class="imagen1">Ingreso
+                            carrotcake
+                        </a></li>
+                    <li><a href=""><img src="IMG/frapp.jpg" alt="frappe" class="imagen1">Ingreso
+                            Frappé
+                        </a></li>
+                    <li><a href=""><img src="IMG/red.jpg" alt="red velvet" class="imagen1">Ingreso Red velvet
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <br>
+        <!--fin novedades-->
+        <!--inicio card-->
+        <div class="card my-5">
+            <h2 class="text-center my-5">Nuestra Carta</h2>
+            <div class="container principal"> <!--contenedor principal de card-->
+                <div class="row">
+                    <div class="col-4"><!--card 1-->
+                        <div class="card-text">
+                            <img src="IMG/brunch2.webp" class="card-img-top" alt="brunch ">
+                            <div class="card-body">
+                                <h3 class="card-title">Desayunos y Brunch</h3>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del
+                                    título de la tarjeta
+                                    y componer la mayor parte del contenido de la tarjeta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4"> <!--card 2-->
+                        <div class="card-text">
+                            <img src="IMG/merienda.webp" class="card-img-top" alt="meriendas">
+                            <div class="card-body">
+                                <h3 class="card-title">Meriendas</h3>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del
+                                    título de la
+                                    tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 "><!--card 3-->
+                        <div class="card-text">
+                            <img src="IMG/tortas.jpg" class="imagen-torta">
+                            <div class="card-body">
+                                <h3 class="card-title">Tortas</h3>
+                                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del
+                                    título de la
+                                    tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--fin card-->
+        <!-- inicio testimonios -->
+        <div class="testimonio">
+            <h3 class="text-center">Testimonios</h3>
+        </div>
+        <div class="container-1">
+            <div class="testimonios">
+                <img class="testimonio-imagen rounded-circle " src="IMG/mujer.jpg" style="height: 200px;" alt="foto">
+                <p>Ambiente muy lindo, Muy buena atención</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Laura de Quilmes</p>
+                </div>
+            </div>
+            <div class="testimonios">
+                <img class="testimonio-imagen rounded-circle " src="IMG/hombre.jpg" style="height: 200px;" alt="foto">
+                <p>Muy recomendable, todo muy rico. Seguramente volveremos</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Carlos de Capital Federal</p>
+                </div>
+            </div>
+            <div class="testimonios">
+                <img class="testimonio-imagen rounded-circle " src="IMG/foto.webp" style="height: 200px;" alt="foto">
+                <p>Tienen unas tortas muy ricas, y ni hablar del Brunch. Muy buena atención</p>
+                <div class="text-center">
+                    <p class="cliente">Maria de La Plata</p>
+                </div>
+            </div>
+        </div>
+        <!-- fin de testimonio -->
+        <!--Inicio carrito-->
+        <div id="lista-tortas" class="container">
+            <h1 id="encabezado" class="encabezado">Comprá y te lo llevamos a tu casa</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-1">
+                        <img src="IMG/pav.jpg" class="imagen-torta u-full-width">
+                        <div class="info-card">
+                            <h4>Pavloba</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="3">Agregar
+                                Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="col-4">
+                    <div class="card-1">
+                        <img src="IMG/car22.jpg" class="imagen-torta u-full-width">
+                        <div class="info-card">
+                            <h4>Carrotcake</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="3">Agregar
+                                Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="col-4">
+                    <div class="card-1">
+                        <img src="img/chee.jpg" class="imagen-torta u-full-width">
+                        <div class="info-card">
+                            <h4>Cheescake</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="8">Agregar
+                                Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="col-4">
+                    <div class="card-1">
+                        <img src="img/reee.jpeg" class="imagen-torta u-full-width">
+                        <div class="info-card">
+                            <h4>Torta Red Velvet</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="8">Agregar
+                                Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                    <div class="col-4">
+                        <div class="card-1">
+                            <img src="img/choc.jpeg" class="imagen-torta u-full-width">
+                            <div class="info-card">
+                                <h4>Chocotorta</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                    data-id="7">Agregar
+                                    Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                    </div>
+                    <div class="col-4">
+                        <div class="card-1">
+                            <img src="img/mati.jpg" class="imagen-torta u-full-width">
+                            <div class="info-card">
+                                <h4>Torta Matilda</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$900 <span class="u-pull-right ">$400</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                    data-id="9">Agregar
+                                    Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                    </div>
+                </div> <!--.row-->
+                <!--fin de carrito-->
+                <!--inicio iframe-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <br>
+                            <br>
+                            <h4>Visitanos</h4>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.210053538495!2d-58.42269182346344!3d-34.598849557242346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7cd54f107b%3A0x88bd8fe0e0b6e3a6!2sCentro%20de%20e-Learning%20UTN%20BA!5e0!3m2!1ses-419!2sar!4v1695669957523!5m2!1ses-419!2sar"
+                                width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <br>
+                        <!--fin iframe-->
+                        <!--inicio formulario-->
+                        <section class="form">
+                            <div class="col-6">
+                                <h4 class="text-center mg-3">Contacto</h4>
+                                <div class="container">
+                                    <form class="row ">
+                                        <div class="col-6 mb-3">
+                                            <label for="Nombre">Nombre</label>
+                                            <input type="text" id="nombre" class="form-control">
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <label for="apellido">Apellido</label>
+                                            <input type="text" id="apellido" class="form-control">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="mail">Mail</label>
+                                            <input type="mail" id="mail" class="form-control">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="contraseña">Contraseña</label>
+                                            <input type="password" id="contraseña" class="form-control">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="verificar">
+                                            <label class="verificacion" for="Verificado">Verificado</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
+                    </section>
+    </main>
+    <!--fin formulario-->
+    <!--inicio de footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span>© 2023 Mayra Krynski </span>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--fin footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/script1.js"></script>
+</body>
+
+</html>

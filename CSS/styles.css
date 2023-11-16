@@ -1,0 +1,261 @@
+body{
+    background-image: url(fondos.jpg);
+}
+
+.titulo {
+    font-size: large;
+}
+
+p {
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+
+.contenedor{
+    width: 1200 px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    justify-content: space-between; 
+}
+
+h1,h2,h3,h4{
+    font-size:2.5rem;
+    text-align: center;
+    margin: 10px;
+    color: grey;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+  button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+img{
+    max-width: 100%;
+  }
+  .imagenportada{
+    height: 850px;
+  }
+  .img12{
+    height: 400px;
+  }
+.img-fluid {
+    height: 350px;
+}
+  .imagen1 {
+    height: 200px;
+  }
+
+  .submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.lista-novedades li a{
+    background-color:rgb(243, 176, 198);
+    font-family:'Alfa Slab One', cursive;
+    font-size:x-large;
+    text-decoration: none;
+    color:grey;
+    display:block;
+   
+}
+.lista-novedades li a:hover{
+    color: #212529;
+    background-color:rgb(246, 213, 219);
+}
+
+.lista-novedades li a:hover{
+    filter: none;
+    margin-right:  1.4rem;
+    opacity:1;
+}
+.card{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.2 rem;
+    color:grey;
+    cursor: default;
+    background-color: rgb(250, 216, 233);
+    animation: slideIn 5s ease-in;
+}
+@keyframes slideIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.card :hover{
+ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+ transform:translate(-5)
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2 rem;
+    color:grey;
+}
+
+.card-text{
+   font-family:'Alfa Slab One', cursive;
+    font-size: medium;
+    display: block;
+    text-decoration: none;
+}
+
+.reloj {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(216, 108, 216);
+    text-align: center;
+     text-shadow: pink ;
+    
+
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.card-1 {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card-1 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card-1 {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card-1 {
+        text-align: left;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card-2 h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.testimonios{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: medium;
+   color: grey;
+    text-align: center;
+    margin: 20px;
+    animation: slideIn 5s ease-in-out;
+    background-color:#f7e0f7
+             }
+@keyframes slideIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.testimonios:hover{
+ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+ transform:translate(-5)
+}
+
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    margin: 20px;
+}
+
+@media (min-width: 768px) {
+    body {
+    font-size: 20px; 
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+    font-size: 20px; 
+    }
+}
+
